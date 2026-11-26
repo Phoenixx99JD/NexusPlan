@@ -1,0 +1,30 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+TestResults/
+coverage*/
+*.trx
+publish/
+artifacts/
+
+## IDEs
+.vs/
+.vscode/
+.idea/
+
+## Secretos / local
+appsettings.*.local.json
+*.PublishSettings
+*.publishsettings
+.env
+.dotnet/
+*.db
+*.db-shm
+*.db-wal
+
+## OS
+.DS_Store
+Thumbs.db
